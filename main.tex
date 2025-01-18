@@ -1,0 +1,75 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+
+% Define custom colors
+\definecolor{mpi-green}{RGB}{0, 105, 94} % Define the green color used in the Max Planck logo
+
+\setbeamertemplate{frametitle}{%
+	\begin{beamercolorbox}[wd=\paperwidth,ht=1.5em,dp=0.5em]{frametitle}
+		{\normalsize {\color{mpi-green}\hspace*{1cm}\insertframetitle}} % Slide title
+		\hfill\raisebox{-5mm}{\includegraphics[height=0.8cm,keepaspectratio]{logo.png}} % Move the logo down by 2mm
+	\end{beamercolorbox}
+		{\color{mpi-green}\vspace{-0.2em} % Adjust spacing before the line
+	{\color{mpi-green}\rule{10cm}{0.4mm}}} % Horizontal line with limited width (10cm) in mpi-green
+}
+
+\setbeamertemplate{footline}{} % Remove footline
+\setbeamertemplate{navigation symbols}{} % Remove navigation symbols
+
+% Exclude the logo on the first slide
+\addtobeamertemplate{frametitle}{}{%
+	\ifnum\insertframenumber=1
+	\renewcommand{\titlegraphic}{} % No logo on the first slide
+	\fi
+}
+
+% Title and logo setup
+\titlegraphic{
+	\includegraphics[height=1cm]{logo.png} % Replace 'logo.png' with your logo file name
+	\hfill
+}
+
+% Title Page Information
+\title{{\color{mpi-green}Title}}
+\subtitle{{\color{mpi-green}Subtitle}}
+\author{Name-Lastname \\ Group Leader: Dr. --- ---}
+
+\institute{Max Planck Institute for Polymer research}
+\date{\today}
+
+\addtobeamertemplate{navigation symbols}{}{%
+	\usebeamerfont{footline}%
+	\usebeamercolor[fg]{footline}%
+	\hspace{1em}%
+	\insertframenumber/\inserttotalframenumber
+}
+
+% Add title in the footer
+\setbeamertemplate{footline}{%
+	\hspace*{1em}%
+	\insertshorttitle\hfill%
+	\insertframenumber/\inserttotalframenumber\hspace*{1em}%
+}
+
+\setbeamertemplate{caption}[numbered]
+
+
+\begin{document}
+
+	% Title Slide
+	\begin{frame}
+	    \titlepage
+	\end{frame}
+	
+	
+	
+	
+	\begin{frame}{To Do}
+	    \begin{itemize}
+	    	\item Seperating the files
+	    	\item adding high resolution Logo
+	    \end{itemize}
+	\end{frame}
+
+
+\end{document}
