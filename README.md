@@ -29,7 +29,7 @@ Minimal dependencies — uses standard LaTeX packages compatible with most envir
 ## How to Use
 Clone or Download the repository:
 
-```git clone https://github.com/your-username/Max-Planck-Beamer-Template.git```
+```git clone https://github.com/yriyazi/Max-Planck-Beamer-Template.git```
 
 ### Add Your Content:
 Edit the .tex file to replace the placeholders (title, author, date, etc.) with your content.
