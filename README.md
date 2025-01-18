@@ -1,5 +1,10 @@
 # Max-Planck-Beamer-Template
 
+<p float="center">
+  <img src="Images/Opening.png" width="400" />
+  <img src="Images/Normal_Slides.png" width="400" /> 
+</p>
+
 A custom Beamer template designed for presentations by members and collaborators of the Max Planck Institute for Polymer Research (MPI-P). This template is tailored to include the institute's official branding elements, such as the logo and the signature green color (mpi-green), ensuring a professional and consistent look for academic and research presentations.
 
 ## Features
