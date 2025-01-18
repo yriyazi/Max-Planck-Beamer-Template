@@ -15,7 +15,7 @@ Custom mpi-green color matching the institute's logo.
 Official Max Planck Institute logo integrated into the slides.
 
 ### Minimalist Design:
-Clean and professional layout without footlines or navigation symbols.
+Clean and professional layout without foot lines or navigation symbols.
 
 A horizontal line beneath the slide title for a refined look.
 
@@ -36,7 +36,7 @@ Edit the .tex file to replace the placeholders (title, author, date, etc.) with 
 Use the sample slide structure to add slides as needed.
 
 ### Compile:
-Use a LaTeX editor (e.g., Overleaf, TeXShop, or VS Code with LaTeX Workshop) to compile the file into a PDF.
+Compile the file into a PDF using a LaTeX editor (e.g., Overleaf, TeXShop, or VS Code with LaTeX Workshop).
 
 
 ## TODOs
@@ -48,7 +48,7 @@ Replace the current logo placeholder with a high-resolution version of the MPI-P
 Add example slides showcasing various layouts (e.g., bullet points, images, tables, and equations).
 
 ## Acknowledgments
-This template was developed with the assistance of ChatGPT, which provided guidance on LaTeX customization and design optimization. Special thanks to the OpenAI team for their excellent support tools for researchers and developers.
+This template was developed with the assistance of ChatGPT, which guided LaTeX customization and design optimization.
 
 ## Contribution Guidelines
 We welcome contributions! If you'd like to improve this template:
